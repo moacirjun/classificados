@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">HOME</a>
+                        <a class="nav-link" href="./">HOME</a>
                     </li>
                 </ul> 
 
@@ -43,14 +43,14 @@
                             <a class="nav-link" href="#">Meus Anúncios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Logout</a>
+                            <a class="nav-link" href="logout.php">Logout</a>
                         </li>
                     <?php else : ?>
                         <li class="nav-item">
                             <a class="nav-link" href="usuario-add.php">Cadastre-se</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Login</a>
+                            <a class="nav-link" href="login.php">Login</a>
                         </li>
                     <?php endif; ?>
                 </ul>

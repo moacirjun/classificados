@@ -1,4 +1,4 @@
-<?php require 'header.php'; ?>
+<?php require 'pages/header.php'; ?>
 
 <div class="container-fluid">
 
@@ -17,5 +17,5 @@
     </div>
 </div>
 
-<?php require 'footer.php'; ?>
+<?php require 'pages/footer.php'; ?>
     
