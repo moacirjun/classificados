@@ -1,4 +1,4 @@
-<?php require 'pages/heder.php' ?>
+<?php require 'pages/header.php' ?>
 
 <div class="container">
     <h1>Meus Anúncios</h1>
@@ -15,8 +15,8 @@
         </thead>
 
         <?php
-        require 'classes/ModelAnuncios.php';
-        $Anuncio = new ModelAnuncios();
+        require 'classes/ModelAnuncio.php';
+        $Anuncio = new ModelAnuncio();
         $listaAnuncios = $Anuncio->getAllAnuncios();
 
         foreach ($listaAnuncios as $item) :

@@ -11,7 +11,7 @@ class ModelAnuncio {
         global $PGSQL_PDO;
         
         $listAnuncios = array();
-        $statment = $PGSQL_PDO->query("SELECT * FROM tb_anuncio WHERE id_usuario = :id");
+        $statment = $PGSQL_PDO->prepare("SELECT * FROM tb_anuncio WHERE id_usuario = :id");
         $statment->bindValue(":id", $_SESSION['cLogin']);
         $statment->execute();
 

@@ -40,7 +40,7 @@
                 <ul class="navbar-nav">
                     <?php if ( isset($_SESSION['cLogin']) && !empty($_SESSION['cLogin']) ) :  ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Meus Anúncios</a>
+                            <a class="nav-link" href="./meus-anuncios.php">Meus Anúncios</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="logout.php">Logout</a>
